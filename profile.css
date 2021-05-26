@@ -1,0 +1,164 @@
+body{
+	background-color: #0000ff;
+	font-family:cursive,sans-serif;
+}
+.container{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.card{
+	height: 390px;
+	width: 300px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	box-shadow: 10px 20px 40px black;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+}
+.img2{
+	position: relative;
+	border-radius: 50%;	
+	left: 32%;
+	top: 8%;
+	border: 2px solid white;
+	box-shadow: 2px 2px 10px black;
+}
+.box{
+	height: 160px;
+	width: 300px;
+	background-color: cyan;
+	position: absolute;
+	border-radius: 10px;
+}
+.box:after{
+	content: '';
+	position: absolute;
+	background-color:cyan;
+	top: 90%;
+	left: 0%;
+	border-radius: 1px;
+	transform: rotate(5deg);
+	height: 30px;
+	width: 300px;
+	border-top: transparent;
+	box-shadow: 2px 2px 10px gray;
+}
+
+.b1{
+	height: 10px;
+	width: 10px;
+	background-color: yellow;
+	position: absolute;
+	top: 3%;
+	left: 14%;
+	transform: rotate(45deg);
+}
+.b1:nth-child(3){
+	background-color: navy;
+	position: absolute;
+	top: 19%;
+	left: 12%;
+}
+.b1:nth-child(4){
+	background-color: yellow;
+	position: absolute;
+	top: 29%;
+	left: 23%;
+}
+
+.b1:nth-child(5){
+	background-color: orange;
+	position: absolute;
+	top: 19%;
+	left: 75%;
+}
+
+.b1:nth-child(6){
+	background-color: blue;
+	position: absolute;
+	top: 4%;
+	left: 80%;
+}
+
+.b1:nth-child(7){
+	background-color: red;
+	position: absolute;
+	top: 34%;
+	left: 85%;
+}
+
+.b1:nth-child(8){
+	background-color: deeppink;
+	position: absolute;
+	top: 36%;
+	left: 39%;
+}
+
+.b1:nth-child(9){
+	background-color: white;
+	position: absolute;
+	top: 39%;
+	left: 59%;
+}
+
+.b1:nth-child(10){
+	background-color: crimson;
+	position: absolute;
+	top: 35%;
+	left: 10%;
+}
+
+
+h3{
+	position: absolute;
+	top: 50%;
+	margin: 30px;
+}
+h2{
+	position: absolute;
+	top: 60%;
+	margin: 30px;
+}
+p{
+	position: absolute;
+	top: 70%;
+	margin: 30px;
+}
+.btn{
+	position: absolute;
+	top: 88%;
+	left: 36%;
+	background-color: crimson;
+	border-radius: 10px;
+	border:2px solid pink;
+	box-shadow: inset 2px 2px 10px deeppink;
+	/*margin: 60px;*/
+}
+span{
+	font-family: cursive;
+	font-size: 20px;
+	color: white;
+	padding:12px;
+}
+.btn:hover{
+	background-color: deeppink;
+	transition:ease 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
